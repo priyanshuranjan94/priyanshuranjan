@@ -1,0 +1,445 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+
+  
+}
+#main
+{
+  height: 100%;
+  width: 100%;
+}
+#div1
+{
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
+#menu{
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 0, 0);
+  margin-left: 5px;
+  margin-top: 3px;
+  border-radius: 50%;
+  position: relative;
+}
+.ri-menu-fill{
+  color: rgb(255, 248, 248);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ 
+}
+#menu #h1{
+  margin-left: 30px;
+  font-size: 20px;
+  
+}
+#div2
+{
+  position: absolute;
+  height: 90px;
+  width: 70px;
+  background-color: rgb(0, 0, 0);
+  left: 50%;
+  margin-top: -7px;
+  transform: translate(-50%,0);
+}
+#div2 #h2{
+color: white;
+font-size: 16px;
+text-align: center;
+margin-top: 90%;
+}
+#circle1{
+  position: absolute;
+  height:300px ;
+  width: 300px;
+ border-radius: 50%;
+  border: 40px solid rgba(255, 0, 0, 0.616);
+  left: 525px;
+  top: 150px;
+  
+
+}
+#img1{
+  position: absolute;
+  z-index: -1;
+}
+#div3{
+  
+  margin-top: 80px;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(63, 57, 57, 0.5) ;
+}
+#div3 #h3{
+  position: absolute;
+ margin-left: -375px;
+  font-size: 250px;
+  color: rgba(0, 0, 0, 0.24);
+}
+#div4 {
+  position: absolute;
+  top: 480px;
+  left: 96%;
+  height: 27px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.925);
+}
+#arrow
+{
+display: flex;
+justify-content: center;
+justify-items: center;
+}
+.ri-arrow-right-s-line{
+  color: white;margin-top: 5PX;
+  margin-left: 10px;
+
+  
+}
+.ri-arrow-left-s-line{
+  margin-top: 5PX;
+  color: white;
+}
+#div5{
+  
+  height: 500px;
+  width: 100%;
+}
+#left1{
+  height: 500px;
+  width: 50%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtZFmEsv0XoIm1oj-wLil3inYJVLxLrhjpQ&usqp=CAU);
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+}
+#left2{
+  height: 500px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.678);
+}
+#h4
+{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  left: 20px;
+  margin-top: 20px;
+
+}
+#h5{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  left: 20px;
+  padding-top: 390px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#h6{
+  position: absolute;
+  color: rgb(255, 196, 196);
+  font-size: 20px;
+  left: 20px;
+  padding-top: 450px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h7
+{
+  position: absolute;
+  color: rgb(255, 196, 196);
+  font-size: 15px;
+  left: 650px;
+  padding-top: 15PX;
+}
+#div5 .ri-arrow-right-s-fill{
+  position: absolute;
+  padding-left: 650px;
+  padding-top: 450px;
+  color: white;
+
+}
+#div6
+{
+position: absolute;  
+margin-top: -490px;
+padding-left: 50%;
+}
+#h8{
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+#h9{
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 35px;
+  padding-top: 30px;
+
+}
+
+#h10{
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:  280px;
+  margin-top: -90px;
+  color: red;
+}
+#h11{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 150px;
+  margin-left: 30px;
+  font-weight: 550;
+}
+#h12{
+  margin-top: -42px;
+  margin-left: 340px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div6 .ri-arrow-right-s-fill{
+  margin-left: 600px;
+  margin-top: 10px;
+
+}
+#div7{
+  width: 100%;
+}
+
+
+#div9{
+  width: 100%;
+  display: flex;
+}
+#left3{
+  width: 25%;
+}
+#left3 #h13{
+  transform-origin: 0%;
+  transform: rotate(90deg);
+  color: rgba(0, 0, 0, 0.384);
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#left4{
+  height: 400px;
+  width: 25%;
+  background-color: black ;
+}
+#h14{
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 20px;
+   font-size: 12px;
+   font-weight: 500;
+   margin-left: 92%;
+
+}
+#h15{
+  font-size: 270px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+  font-weight: 700;
+
+}
+#h16{
+  position: absolute;
+  color: red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 280px;
+  padding-top: 50px;
+}
+#h17
+{
+  color: white;
+  margin-top: -10px;
+
+}
+#left4 .ri-arrow-right-s-fill
+{
+  color: white;
+  margin-left: 300px;
+ margin-top: 20px;
+}
+#div8{
+ position: absolute;
+  height: 45px;
+  width: 390px;
+  background-color: rgba(255, 0, 0, 0.521);
+  margin-left: 310px;
+  margin-top: 200px;
+
+}
+#right2{
+  width: 25%;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1547941126-3d5322b218b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHNwb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}  
+#div10{
+  width: 100%;
+  display: flex;
+
+
+}  
+#left5{
+  width: 25%;
+  height: 500px;
+
+}
+#h18{
+  margin-left: 80px ;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h19{
+  margin-left: 80px ;
+  margin-top: 40px;
+  font-size: 15px;
+}
+#left6{
+  width: 25%;
+  height: 400px;
+  background-image: url(https://png.pngitem.com/pimgs/s/10-108554_nike-shoes-png-nike-sports-shoes-png-transparent.png);
+  background-position: center;
+  background-repeat:no-repeat;
+background-size: auto;
+}  
+#right4{
+  margin-left: 10px;
+  margin-top: 200px;
+  display: flex;
+}
+#h20
+{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+#h21{
+  font-size: 15px;
+  margin-top: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#right5{
+  width: 100px;
+  background-position: center;
+  height: 175px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReL3zUZq65f27mw-r-sbqgrU8dXMy-UJp-GQ&usqp=CAU);
+}
+#h22{
+ font-size: 15px;
+ margin-left: 120px;
+ font-weight: 800;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#right5 i{
+  position: absolute;
+margin-left: 115px;
+padding-top: 100px ;
+
+}
+#div11{
+width: 100%;
+height: 10px;
+margin: 10px;
+
+}
+#h23{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div12{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+#div13{
+  margin-top: 30px;
+  width: 20%;
+  margin: 20px;
+  font-size: 10px;
+  height: 350px;
+  background-image: url(https://media.istockphoto.com/photos/front-of-sweatshirt-with-hood-isolated-on-white-background-picture-id1142213013?k=20&m=1142213013&s=612x612&w=0&h=GLGwb60TVDpXQw3rKUTtbxUvKgsel1sAXNwoy_bVe3Y=);
+background-size: cover;
+background-position: center;
+}
+#div14{
+  
+  width: 20%;
+  margin: 20px;
+  font-size: 10px;
+  background-image: url(https://images.unsplash.com/photo-1606902965551-dce093cda6e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnQlMjBicmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+background-position: center;
+
+}
+#div15{
+  width: 20%;
+  margin: 20px;
+  font-size: 10px;
+  background-image: url(https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHNoaXJ0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+background-position: center;
+
+}
+#div16{
+  width: 20%;
+  margin: 20px;
+  font-size: 10px;
+  background-image: url(https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12352000/2020/10/12/50f15c6e-0ca7-45b2-81eb-7cfd03fe7bdd1602494543302-Puma-Men-Track-Pants-1341602494540721-1.jpg);
+  background-size: cover;
+background-position: center;
+}
+#div17{
+  width: 100%;
+  display: flex;
+}
+#left7{
+  display: flex;
+}
+
+#h30{
+  font-size: 20px;
+  margin-left: 40px ;
+}
+#h28{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 38px;
+}
+#h29{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 40px;
+
+}
+#h32{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+#h33{
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 25px;
+}
+#form
+{
+  margin-top: 50px;
+  margin-left: 400px;
+}
